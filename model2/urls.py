@@ -4,5 +4,5 @@ from . import views
 app_name = 'model2'
 
 urlpatterns = [
-    path('', views.TextView.as_view(), name='text')
+    path('', views.Chatbot.as_view(), name='chatbot')
 ]
